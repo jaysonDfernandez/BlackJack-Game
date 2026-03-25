@@ -65,3 +65,8 @@ This project features a **Dealer AI** that follows official casino rules, provid
 ---
 
 ## 📂 Project Structure
+
+├── index.html # Game structure and UI
+├── index.css # Casino styling
+├── index.js # Game logic and Dealer AI
+└── README.md # Documentation
