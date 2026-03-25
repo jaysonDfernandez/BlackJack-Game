@@ -1,49 +1,67 @@
-🃏 Blackjack: Casino Edition
-A high-stakes, interactive Blackjack game built with HTML5, CSS3, and Vanilla JavaScript. This project features a "Dealer AI" that follows official casino rules, providing a competitive experience against a computer opponent.
+# 🃏 Blackjack: Casino Edition
 
-🚀 Live Demo
-Experience the game here: Blackjack Live on Vercel
+A high-stakes, interactive Blackjack game built with HTML5, CSS3, and Vanilla JavaScript.  
+This project features a **Dealer AI** that follows official casino rules, providing a competitive experience against a computer opponent.
 
-✨ Features
-Dealer AI: A "Robot" opponent that automatically hits until it reaches a sum of 17, following standard Blackjack regulations.
+---
 
-Dynamic UI: Real-time updates to the DOM using JavaScript to display cards, sums, and game status.
+## 🚀 Live Demo
+👉 [Play Blackjack on Vercel](#)
 
-Chip Economy: Integrated player object tracking your "Bankroll" ($145 starting) with wins and losses impacting your total.
+---
 
-Responsive Design: A professional "Casino Night" theme with polished CSS transitions and a centralized layout.
+## ✨ Features
 
-🛠️ Tech Stack
-HTML5: Semantic structure for the game board.
+- **Dealer AI**  
+  A "Robot" opponent that automatically hits until it reaches a sum of 17, following standard Blackjack rules.
 
-CSS3: Custom styling using Flexbox, CSS Variables, and hover effects for a premium feel.
+- **Dynamic UI**  
+  Real-time DOM updates using JavaScript to display cards, sums, and game status.
 
-JavaScript (ES6): Core game logic including:
+- **Chip Economy**  
+  Player bankroll system starting at **$145**, with wins and losses affecting total balance.
 
-while loops for AI decision-making.
+- **Responsive Design**  
+  "Casino Night" themed UI with smooth CSS transitions and a clean layout.
 
-Array manipulation for card tracking.
+---
 
-Conditional logic for win/loss determination.
+## 🛠️ Tech Stack
 
-🕹️ How to Play
-Start Game: Click the "START GAME" button to receive your first two cards.
+- **HTML5**  
+  Semantic structure for the game board.
 
-Evaluate: Check your sum. If you have 21, you win immediately (Blackjack!).
+- **CSS3**  
+  Flexbox layout, CSS variables, and hover effects for polished styling.
 
-New Card (Hit): If your sum is below 21, click "NEW CARD" to try and get closer to 21 without going over ("Busting").
+- **JavaScript (ES6)**  
+  Core game logic including:
+  - `while` loops for Dealer AI behavior  
+  - Array manipulation for card handling  
+  - Conditional logic for win/loss outcomes  
 
-Stand: If you are happy with your sum, click "STAND." This triggers the Dealer AI to take its turn.
+---
 
-Win/Loss:
+## 🕹️ How to Play
 
-If your sum > Dealer's sum (or if Dealer busts), you win $20.
+1. **Start Game**  
+   Click `START GAME` to receive your first two cards.
 
-If Dealer's sum > your sum, you lose $10.
+2. **Evaluate**  
+   - If your sum is **21**, you win instantly (Blackjack).  
 
-📂 Project Structure
-Plaintext
-├── index.html      # Game structure and UI elements
-├── index.css       # Professional Casino styling
-├── index.js        # Game engine and Dealer AI logic
-└── README.md       # Project documentation
+3. **New Card (Hit)**  
+   - Click `NEW CARD` to draw another card.  
+   - Try to get close to 21 without going over (bust).
+
+4. **Stand**  
+   - Click `STAND` to end your turn.  
+   - Dealer AI will play automatically.
+
+5. **Win / Loss Rules**
+   - If your sum > Dealer's sum OR dealer busts → **Win $20**  
+   - If dealer sum > your sum → **Lose $10**
+
+---
+
+## 📂 Project Structure
