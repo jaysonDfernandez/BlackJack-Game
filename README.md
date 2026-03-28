@@ -6,7 +6,7 @@ This project features a **Dealer AI** that follows official casino rules, provid
 ---
 
 ## 🚀 Live Demo
-👉 [Play Blackjack on Vercel](#)
+👉 [Play Blackjack on Vercel](https://black-jack-game-nine-bice.vercel.app/)
 
 ---
 
